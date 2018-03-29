@@ -1,0 +1,8 @@
+board=none
+eclipse.preferences.version=1
+imgfile="D\:\\runtime-EclipseApplication ARM\\Test1"
+imgformat=BIN
+libPath=D\:\\git\\runtime-library
+os=NTB Simple Tasking System for ARM
+programmer=none
+useDefault=false

@@ -1,0 +1,21 @@
+#deep-1
+
+meta {
+	version = "Thu Mar 01 14:00:35 CET 2018";
+	description = "deep project file for Test1";
+}
+
+project Test1 {
+	libpath = "D:\git\runtime-library";
+	boardtype = zybo7000;
+	ostype = ntbSTS_arm;
+	programmertype = openOCD;
+	programmeropts = localhost_4444;
+
+#	enter names of rootclasses, e.g.
+#	rootclasses = "test.MyFirstTestClass","other.MySecondTestClass";
+	rootclasses = "test.HelloWorld";
+
+	imgfile = "D:\runtime-EclipseApplication_ARM\Test1\Test1.bin";
+#	imgformat = BIN;
+}
